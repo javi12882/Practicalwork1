@@ -1,0 +1,15 @@
+Train001,485,Passenger,3,120
+Train002,168,Passenger,3,670
+Train003,798,Freight,1311,Oil
+Train004,703,Freight,2130,Lumber
+Train005,77,Freight,3891,Coal
+Train006,1396,Passenger,11,793
+Train007,321,Passenger,11,875
+Train008,558,Passenger,11,473
+Train009,61,Freight,1692,Coal
+Train010,234,Freight,2412,Containers
+Train011,1009,Passenger,5,584
+Train012,1179,Passenger,10,154
+Train013,1135,Passenger,11,944
+Train014,1404,Freight,505,Cars
+Train015,216,Freight,3811,Cars

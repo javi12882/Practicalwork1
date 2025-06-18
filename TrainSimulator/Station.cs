@@ -269,29 +269,8 @@ public class Station
         string[] values = line.Split(separator);
         string id = values[0];
 
-        string statusString = values[1];
-        EStatus status;
-
-        switch (statusString)
-        {
-            case "EnRoute":
-                status = EStatus.EnRoute;
-                break;
-            case "Waiting":
-                status = EStatus.Waiting;
-                break;
-            case "Docking":
-                status = EStatus.Docking;
-                break;
-            case "Docked":
-                status = EStatus.Docked;
-                break;
-            default:
-                throw new ArgumentException("Status invalid");
-        }
-
-        int arrivalTime = int.Parse(values[2]);
-        string type = values[3];
+        int arrivalTime = int.Parse(values[1]);
+        string type = values[2];
 
 
         Train r;
@@ -299,15 +278,15 @@ public class Station
         switch (type)
         {
             case "Passenger":
-                int numberOfCarriages = int.Parse(values[4]);
-                int capacity = int.Parse(values[5]);
+                int numberOfCarriages = int.Parse(values[3]);
+                int capacity = int.Parse(values[4]);
 
                 r = new PassengerTrain(id, arrivalTime, type, EStatus.EnRoute, numberOfCarriages, capacity);
                 break;
 
             case "Freight":
-                int maxWeight = int.Parse(values[4]);
-                string freightType = values[5];
+                int maxWeight = int.Parse(values[3]);
+                string freightType = values[4];
 
                 r = new FreightTrain(id, arrivalTime, type, EStatus.EnRoute, maxWeight, freightType);
                 break;
