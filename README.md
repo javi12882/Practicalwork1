@@ -51,7 +51,7 @@ To continue, the trains, during all the program execution, stayed always in the 
 
 To conclude, this project has made me realize that it is really complicated to develop a real full program although this, compared to other different fully developed programs it could be like just a "warm up". I understood how much time could a full team last to make a real program for different daily life situations.
 
-With this practical work 1 I learned how to made the different relationships for the different subclasses as well as finding how to load a pre-made file with information of different aircrafts. 
+With this practical work 1 I learned how to made the different relationships for the different subclasses as well as finding how to load a pre-made file with information of different trains. 
 
 
 
