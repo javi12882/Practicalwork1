@@ -42,9 +42,9 @@ The interaction of the user is really simple as it has to choose firstly if it w
 At first I thought the practical work would be just doing some different methods, classes and subclasses for the train class but as I was doing it I realized it was not that easy and that we would have to stay a lot of hours developing the program, testing it, finding errors, fixing them... 
 
 I faced some problems during the program construction as I had to revise the slides of the different units to revise all the theory.
-Mainly, we had most of the problems in the station class as it is the largest one and the one that contains most of the methods of the program.
-We had some problems trying to set which was the status of the trains in the different moments of the simulation. 
-To continue, our trains, during all the program execution, stayed always in the "En route" state even if the distance was 0 but in the end we managed to solve it.
+Mainly, I had the most of the problems in the station class as it is the largest one and the one that contains most of the methods of the program.
+I had some problems trying to set which was the status of the trains in the different moments of the simulation. 
+To continue, the trains, during all the program execution, stayed always in the "En route" state even if the distance was 0 but in the end we managed to solve it.
 
 
 # Conclusions
